@@ -2,7 +2,7 @@
 
 This repo will show you the different usages you can have with the scss ribbon I created.
 
-[http://ikoshowa.github.io](http://ikoshowa.github.io)
+[http://ikoshowa.github.io/sass-ribbons](http://ikoshowa.github.io/sass-ribbons)
 
 
 ## Usage
