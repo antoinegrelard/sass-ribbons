@@ -1,0 +1,16 @@
+header {
+	background: $colorBlueLight;
+	height: $headerHeight;
+	padding: $defaultPadding;
+	box-sizing: border-box;
+
+	h1 {
+		background: white;
+		//@include border-radius(20px);
+		width: 80%;
+		margin: 0 auto;
+		padding: $defaultPadding;
+		box-sizing: border-box;
+	}
+
+}

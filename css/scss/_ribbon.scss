@@ -1,0 +1,101 @@
+.ribbon-wrapper {
+	opacity: 0;
+	-webkit-animation: fadeIn .7s ease-in forwards;
+	animation: fadeIn .7s ease-in forwards;
+	font-size: 20px;
+	margin: 40px auto 40px;
+}
+
+.big {
+	@include ribbon(#e74c3c,white,15px);
+
+	@include medium {
+		@include ribbon(#e74c3c,white,20px);
+		font-size: 22px;
+	}
+
+	@include large {
+		@include ribbon(#e74c3c,white,30px);
+		font-size: 25px;
+	}
+
+}
+
+.medium {
+	@include ribbon(#2ecc71, white, 10px);
+	font-size: 16px;
+
+	@include medium {
+		@include ribbon(#2ecc71,white,15px);
+		font-size: 18px;
+	}
+
+	@include large {
+		@include ribbon(#2ecc71,white,20px);
+		font-size: 20px;
+	}
+
+}
+
+.small {
+	@include ribbon(#1abc9c,white,5px);
+	font-size: 10px;
+
+	@include medium {
+		@include ribbon(#1abc9c,white,10px);
+		font-size: 12px;
+	}
+
+	@include large {
+		@include ribbon(#1abc9c,white,15px);
+		font-size: 14px;
+	}
+
+}
+
+.topBig {
+	@include ribbon(#9b59b6,white,15px, top);
+
+	@include medium {
+		@include ribbon(#9b59b6,white,20px,top);
+		font-size: 22px;
+	}
+
+	@include large {
+		@include ribbon(#9b59b6,white,30px,top);
+		font-size: 25px;
+	}
+
+}
+
+.topMedium {
+	@include ribbon(#34495e, white, 10px, top);
+	font-size: 16px;
+
+	@include medium {
+		@include ribbon(#34495e,white,15px,top);
+		font-size: 18px;
+	}
+
+	@include large {
+		@include ribbon(#34495e,white,20px,top);
+		font-size: 20px;
+	}
+
+}
+
+.topSmall {
+	@include ribbon(#e67e22,white,5px, top);
+	font-size: 10px;
+
+	@include medium {
+		@include ribbon(#e67e22,white,10px,top);
+		font-size: 12px;
+	}
+
+	@include large {
+		@include ribbon(#e67e22,white,15px,top);
+		font-size: 14px;
+	}
+
+}
